@@ -326,6 +326,7 @@ nav{
     align-items: center;
     height: 57px;
     position: sticky;
+    top: 0;
     background-color: inherit;
 }
     .nav-name h1{
