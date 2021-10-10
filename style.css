@@ -27,7 +27,6 @@ hr{
 }
 
 body{
-    position: relative;
     background-color: var(--background-color);
     width: 93%;
     margin: auto;
@@ -80,6 +79,7 @@ NAVIGATION
     right: -120%;
     background-color: #999;
     transition: all .5s;
+    display: none;
 }
 .nav-items ul li{
     list-style-type: none;
