@@ -5,7 +5,7 @@ navItems.state = true;
 
 menu.addEventListener('click', () => {
     if(navItems.state){
-        navItems.style.display = 'block';
+//         navItems.style.display = 'block';
         navItems.style.right = '0';
         menu.style.display = 'none'
         closeButton.style.display = 'block';
@@ -15,7 +15,7 @@ menu.addEventListener('click', () => {
 
 closeButton.addEventListener('click', () => {
     if(!navItems.state){
-        navItems.style.display = 'none';
+//         navItems.style.display = 'none';
         navItems.style.right = '-120%'
         menu.style.display = 'block'
         closeButton.style.display = 'none';
