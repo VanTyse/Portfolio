@@ -3,18 +3,28 @@
     padding: 0;
 }
 
-html{
-    overflow-x: hidden;
-}
-
 :root{
     --font-size : 18px;
     --main-color: rgb(223, 57, 73);
     --sub-color: rgb(33, 199, 183);
     --sub-color2: rgb(57, 223, 73);
-    --background-color: rgb(241, 235, 235);
+    --background-color: rgb(241, 235, 235); 
     --name-font-style: 'Satisfy', cursive;
     --main-font-style: 'Titillium', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    background-color: var(--background-color);
+    width: 93%;
+    margin: auto;
+    font-family: var(--main-font-style);
+    font-size: var(--font-size);
+    line-height: 1.6em;
 }
 
 hr{
@@ -26,19 +36,20 @@ hr{
     display: block;
 }
 
-body{
-    background-color: var(--background-color);
-    width: 93%;
-    margin: auto;
-    font-family: var(--main-font-style);
-    font-size: var(--font-size);
-    line-height: 1.6em;
-}
-
 
 /***
 NAVIGATION
 ***/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    position: sticky;
+    top: 0;
+    background-color: inherit;
+}
 
 .menu-bar{
     margin: 10px;
@@ -81,25 +92,24 @@ NAVIGATION
     transition: all .5s;
     padding-top: 10%;
 }
-
 .nav-items ul li{
     list-style-type: none;
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    margin: 0 30px;
     line-height: 15vh;
 }
 
 .nav-items ul li:not(:last-child){
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
 }
 
 
 .nav-items ul li a{
     text-decoration: none;
     color: #000;
-    padding: 40px;
+    padding: 10px 15px;
+    font-size: 18px;
 }
 
 .nav-items ul li a:hover{
@@ -116,15 +126,8 @@ NAVIGATION
     cursor: pointer;
 } 
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 57px;
-    position: sticky;
-    top: 0;
-    background-color: inherit;
+.close-btn:active{
+    transform: scale(0.9);
 }
 
 .nav-name{
@@ -327,7 +330,6 @@ nav{
     align-items: center;
     height: 57px;
     position: sticky;
-    top: 0;
     background-color: inherit;
 }
     .nav-name h1{
@@ -342,13 +344,13 @@ nav{
 
     .nav-items{
         position: absolute;
+        padding: 0;
         top: 0;
         right: 0 !important;
         width: fit-content;
         height: auto;
         background-color: inherit;
         transition: all .5s;
-        padding: 0;
     }
 
     .nav-items ul li{
