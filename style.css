@@ -73,14 +73,15 @@ NAVIGATION
 
 .nav-items{
     position: fixed;
-    width: 100%;
     height: 100vh;
-    top: 76px;
+    width: 300px;
+    top: 0;
     right: -120%;
-    background-color: #999;
+    background-color: salmon;
     transition: all .5s;
-/*     display: none; */
+    padding-top: 10%;
 }
+
 .nav-items ul li{
     list-style-type: none;
     display: block;
@@ -347,6 +348,7 @@ nav{
         height: auto;
         background-color: inherit;
         transition: all .5s;
+        padding: 0;
     }
 
     .nav-items ul li{
