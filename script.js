@@ -6,7 +6,6 @@ navItems.state = true;
 window.onclick = function(event){
     if(event.target.id != 'nav-items' && event.target.parentElement.id != 'menu-bar' && event.target.id != 'menu-bar'){
         navItems.style.right = '-120%'
-        menu.style.display = 'block'
         navItems.state = !navItems.state
     }
 }
@@ -14,8 +13,6 @@ window.onclick = function(event){
 menu.addEventListener('click', () => {
     if(navItems.state){
         navItems.style.right = '0';
-        menu.style.display = 'none'
-        closeButton.style.display = 'block';
     }
     navItems.state = !navItems.state
 })
