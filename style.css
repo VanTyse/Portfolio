@@ -88,7 +88,7 @@ nav{
     width: 300px;
     top: 0;
     right: -120%;
-    background-color: salmon;
+    background-color: rgb(197, 197, 197);;
     transition: all .5s;
     padding-top: 10%;
 }
