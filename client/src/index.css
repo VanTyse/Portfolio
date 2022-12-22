@@ -32,9 +32,9 @@ body {
   --main-color : hsl(200, 70%, 50%);
   --light-main-color : hsl(200, 70%, 80%);
   --dark-main-color : hsl(200, 30%, 40%);
-  --background-color : #121212;
-  --foreground-color : #282828;
-  --foreground-color2 : #363636;
+  --background-color : #282828;
+  /* --foreground-color : #282828; */
+  --foreground-color : #363636;
   --font-family-main : Circular Std, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; 
   --font-family-cursive : 'Great Vibes', cursive;
   --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -48,5 +48,9 @@ code {
 }
 
 .icon{
+  cursor: pointer;
+}
+
+button:hover {
   cursor: pointer;
 }
