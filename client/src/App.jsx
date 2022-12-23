@@ -168,7 +168,7 @@ function ProfessionalExperience(){
             website : 'https://foodsub.africa',
             workDone : ['Led a team of react developers to work on responsive user interfaces for the company’s web applications. The company’s users use the mobile application to use the company’s services, while the web applications are used by the staff to manage everything, like a really huge dashboard.',
                         'Built an admin system that increased tested efficiency by 30%.',
-                        'Built a service provider system that increased tested efficiency by about 67%.',
+                        'Built a service provider system that surpassed expected turn-over during the beta by about 67%.',
                         'Built a completely secure and robust payment system that utilized the flutterwave, paystack and mono apis.',
                         'Was part of the backend team building robust and secure apis using node, express, websockets, and mongodb for the database.'
                         ],
@@ -312,8 +312,8 @@ function Skills(){
         }
     }, [staticRef.current])
 
-    const hardSkills = ['reactjs', 'nodejs', 'expressjs', 'mongodb', 'redux', 'bootstrap', 'sass', 'nextjs', 'agile development', 'javaScript', 'github', 'git']
-    const softSkills = ['problem-solving', 'critical-thinking', 'time-management', 'listening', 'collaboration', 'written communication']
+    const hardSkills = ['reactjs', 'nodejs', 'expressjs', 'mongodb', 'redux', 'bootstrap', 'sass', 'nextjs', 'agile development', 'javaScript', 'github', 'git', 'AWS', 'heroku', 'netlify', 'railway']
+    const softSkills = ['problem-solving', 'critical-thinking', 'time-management', 'listening', 'collaboration', 'written communication', 'teamwork']
     return(
         <div ref={staticRef} className="skills-container" id='skills'>
             <h4 className='sub-heading'><span>05. </span>Skills</h4>
